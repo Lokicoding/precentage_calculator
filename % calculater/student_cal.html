@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="style.css" >
+  <title>Calculator</title>
+</head>
+<body>
+  <div class="main_div">
+    <div class="app_div">
+      <div class="heading_div ">
+        <h1>Grade & Percentage Calcy</h1>
+      </div>
+      <div class="calculator_div">
+        <form>
+          <input type="text" placeholder="Subject-1" id="input1" class="input" required>
+          <input type="text" placeholder="Subject-2" id="input2" class="input" required>
+          <input type="text" placeholder="Subject-3" id="input3" class="input" required>
+          <input type="text" placeholder="Subject-4" id="input4" class="input" required>
+          <input type="button" value="calculate" id="btn" class="input btn">
+        </form>
+      </div>
+    </div>
+
+    <div class="result_div" id="result"> 
+        <p id="result_pera"></p>
+        <button id="close_btn">close</button>
+    </div>
+    
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
